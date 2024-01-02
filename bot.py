@@ -16,6 +16,7 @@ import os
 from telegraph import upload_file
 import pyrogram
 from pyrogram import filters, Client
+from .parse_mode import ParseMode
 from sample_config import Config
 from pyrogram.types import (
     InlineQueryResultArticle, InputTextMessageContent,
